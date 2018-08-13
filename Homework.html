@@ -13316,13 +13316,13 @@ We do not have this kind of payment type for July month yet
 <ol>
 <li>In the help section, where customers can use our delivery time estimator tool to estimate even before they initiate a transfer. Much like <strong>Moneygram's</strong> Fees Estimator:</li>
 </ol>
-<p><img src="MGFE.png" alt="title">
+<p><img src="https://drive.google.com/uc?export=view&id=1w10UJ-QMj57-Cyicm0ViIkGurd8pwTGF" alt="title">
 as later I discovered, we already have this tool in place :)(only for logged in user) at:</p>
 <p><a href="https://transferwise.com/transferFlow#/enterpayment">https://transferwise.com/transferFlow#/enterpayment</a></p>
 <p>Which is part of the transfer flow, and I think it has been appropriately placed.</p>
 <ol>
 <li>In case we have managed to create an estimator, with really low variance and tested it over some time for performance, I will place it at 
-<img src="TW.png" alt="title"></li>
+<img src="https://drive.google.com/uc?export=view&id=1f82qBwP2bkjabJrVLP1cFF6B7oEHyrE7" alt="title"></li>
 </ol>
 <p>after Guaranted Rate, a new row for estimated time, which we can show even to a user which is not logged in, which will be another differentiator for us.</p>
 <p>After testing if it works within accepted error limits, probably we should advertise on the main page, ofcourse after discussions with stakeholders.</p>
@@ -13362,7 +13362,7 @@ We need 4 components to be build if we need to create a MVP to validate the esti
 <h3 id="Q5">Q5<a class="anchor-link" href="#Q5">&#182;</a></h3><p>I will use following KPI's to monitor my Estimator's(for one currency corridor) success:</p>
 <ol>
 <li><strong>On-time Transfers</strong>: percentage of on-time transfers. It will help us know how much we managed to deliver on our promised transfer time.It will look like as:
-<img src="OTD.png" alt="title"></li>
+<img src="https://drive.google.com/uc?export=view&id=1KCRNT8k6nDrWpoOFMcxjRhgUq60PXNqQ" alt="title"></li>
 <li><strong>Average transfer time</strong>: Average time taken for transfers. Formula: <code>total time for all transfers/total number of transfers</code>. This will give us an overall picture.</li>
 <li><strong>Average Early time</strong>: The average of <code>time_diff = ( predicted transfer time - actual transfer time )</code>. This will help us monitor by how far is our estimator deviating from actual time in cases where we did not miss the estimate. It will help us guide if we need to find more ways to optimize or not. Formula: <code>time_diff/number of transfers within predicted time</code></li>
 <li><strong>Average Delay</strong>: In case of delayed transfer, by how much we missed the estimate on average. Again this will help us improve the estimator. Formula: <code>abs( predicted transfer time - actual transfer time /number of transfers which went over predicted time)</code></li>
